@@ -6,9 +6,15 @@ import avatar3 from "./images/avatars/3.avif";
 import info from "./images/icons/information.svg";
 import googleAppStore from "./images/icons/googleAppStore.svg";
 import appStore from "./images/icons/appStore.svg";
-import phone1 from "./images/phone/1.avif";
-import phone2 from "./images/phone/2.avif";
-import phone3 from "./images/phone/3.avif";
+import phone1 from "./images/phones/1.avif";
+import phone2 from "./images/phones/2.avif";
+import phone3 from "./images/phones/3.avif";
+import company1 from "./images/companies/company1.svg";
+import company2 from "./images/companies/company2.svg";
+import company3 from "./images/companies/company3.svg";
+import company4 from "./images/companies/company4.svg";
+import company5 from "./images/companies/company5.svg";
+import company6 from "./images/companies/company6.svg";
 
 export {
   favIcon,
@@ -22,4 +28,10 @@ export {
   phone1,
   phone2,
   phone3,
+  company1,
+  company2,
+  company3,
+  company4,
+  company5,
+  company6,
 };
