@@ -24,7 +24,7 @@ const Mobile = () => {
   };
 
   return (
-    <div className="w-full px-[30px] py-[24px] absolute top-0 lg:hidden border-b border-solid border-[#1d1d20] flex justify-between">
+    <div className="w-full px-[30px] py-[24px] lg:hidden border-b border-solid border-[#1d1d20] flex justify-between">
       <FavIcon />
       <div onClick={toggleMenu}>
         <DropdownMenuButton />
