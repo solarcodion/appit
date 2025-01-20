@@ -1,6 +1,12 @@
+import { dropdownMenuIcon } from "../../assets/image";
+
 type NormalButtonProps = {
   className?: string;
   children: React.ReactNode;
+};
+
+type DropdownMenuButtonProps = {
+  className?: string;
 };
 
 const NormalButton: React.FC<NormalButtonProps> = ({ className, children }) => {
@@ -13,4 +19,14 @@ const NormalButton: React.FC<NormalButtonProps> = ({ className, children }) => {
   );
 };
 
-export { NormalButton };
+const DropdownMenuButton: React.FC<DropdownMenuButtonProps> = ({
+  className,
+}) => {
+  return (
+    <NormalButton className={className}>
+      <img src={dropdownMenuIcon} alt="dropdown" />
+    </NormalButton>
+  );
+};
+
+export { NormalButton, DropdownMenuButton };

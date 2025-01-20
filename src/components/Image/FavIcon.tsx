@@ -1,7 +1,7 @@
 import { favIcon } from "../../assets/image";
 
 type FavIconProps = {
-  className: string;
+  className?: string;
 };
 
 const FavIcon: React.FC<FavIconProps> = ({ className }) => {
