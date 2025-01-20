@@ -4,8 +4,8 @@ import MenuList from "./MenuList";
 
 const Desktop = () => {
   return (
-    <div className="w-full h-[100px] px-[60px] hidden lg:block">
-      <div className="max-w-[1320px] h-full relative flex items-center justify-center">
+    <div className="w-full px-[60px] py-[24px] hidden lg:block fixed top-0">
+      <div className="max-w-[1320px] relative flex items-center justify-center">
         <FavIcon className="absolute left-0" />
         <div className="flex">
           <MenuList />
