@@ -4,6 +4,7 @@ import Benefits from "../containers/Home/Benifits";
 import Feature from "../containers/Home/Feature";
 import Header from "../containers/Home/Header";
 import Introduce from "../containers/Home/Introduce";
+import Price from "../containers/Home/Price";
 import Social from "../containers/Home/Social";
 
 const HomePage = () => {
@@ -16,6 +17,7 @@ const HomePage = () => {
         <Social />
         <Appits />
         <Feature />
+        <Price />
       </div>
     </Layout>
   );

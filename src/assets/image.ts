@@ -46,6 +46,9 @@ import notification from "./images/icons/notification.svg";
 import schedule from "./images/icons/schedule.svg";
 import verify from "./images/icons/verify.svg";
 import mask3 from "./images/backgrounds/mask3.svg";
+import price from "./images/icons/price.svg";
+import mask4 from "./images/backgrounds/mask4.svg";
+import uncheck from "./images/icons/uncheck.svg";
 
 export {
   favIcon,
@@ -96,4 +99,7 @@ export {
   schedule,
   verify,
   mask3,
+  price,
+  mask4,
+  uncheck,
 };

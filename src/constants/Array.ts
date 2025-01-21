@@ -18,7 +18,7 @@ import {
   schedule,
   verify,
 } from "../assets/image";
-import { ANALYZE_DATA, FEATURE_DATA } from "../types";
+import { ANALYZE_DATA, FEATURE_DATA, PRICE_DATA } from "../types";
 
 export const COMPANIES: any[] = [
   company1,
@@ -86,5 +86,64 @@ export const FEATURES: FEATURE_DATA[] = [
     icon: schedule,
     title: "Post Scheduling",
     desc: "Plan and schedule posts to share content at the perfect time.",
+  },
+];
+
+export const MONTHLY_PRICES: PRICE_DATA[] = [
+  {
+    title: "Free Plan",
+    sub: "Basic access with essential features.",
+    value: 0,
+    information: [
+      { desc: "Create and customize profile", status: true },
+      { desc: "Connect with other users", status: true },
+      { desc: "Send and receive messages", status: false },
+      { desc: "Access to basic features", status: true },
+      { desc: "View and share content", status: false },
+      { desc: "Receive notifications and updates", status: true },
+    ],
+  },
+  {
+    title: "Premium Plan",
+    sub: "Enhanced features for new experience.",
+    badge: "Save 20% on Yearly",
+    value: 10,
+    information: [
+      { desc: "Create and customize profile", status: true },
+      { desc: "Connect with other users", status: true },
+      { desc: "Send and receive messages", status: true },
+      { desc: "Access to basic features", status: true },
+      { desc: "View and share content", status: true },
+      { desc: "Receive notifications and updates", status: true },
+    ],
+  },
+];
+
+export const YEARLY_PRICE: PRICE_DATA[] = [
+  {
+    title: "Free Plan",
+    sub: "Basic access with essential features.",
+    value: 0,
+    information: [
+      { desc: "Create and customize profile", status: true },
+      { desc: "Connect with other users", status: true },
+      { desc: "Send and receive messages", status: false },
+      { desc: "Access to basic features", status: true },
+      { desc: "View and share content", status: false },
+      { desc: "Receive notifications and updates", status: true },
+    ],
+  },
+  {
+    title: "Premium Plan",
+    sub: "Enhanced features for new experience.",
+    value: 99,
+    information: [
+      { desc: "Create and customize profile", status: true },
+      { desc: "Connect with other users", status: true },
+      { desc: "Send and receive messages", status: true },
+      { desc: "Access to basic features", status: true },
+      { desc: "View and share content", status: true },
+      { desc: "Receive notifications and updates", status: true },
+    ],
   },
 ];

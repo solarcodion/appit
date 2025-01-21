@@ -17,4 +17,15 @@ type FEATURE_DATA = {
   desc: string;
 };
 
-export type { MENU_LINK, ANALYZE_DATA, FEATURE_DATA };
+type PRICE_DATA = {
+  title: string;
+  sub: string;
+  badge?: string;
+  value: number;
+  information: {
+    desc: string;
+    status: boolean;
+  }[];
+};
+
+export type { MENU_LINK, ANALYZE_DATA, FEATURE_DATA, PRICE_DATA };
