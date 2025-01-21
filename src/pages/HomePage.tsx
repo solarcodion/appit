@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import Appits from "../containers/Home/Appits";
 import Benefits from "../containers/Home/Benifits";
 import Header from "../containers/Home/Header";
 import Introduce from "../containers/Home/Introduce";
@@ -12,6 +13,7 @@ const HomePage = () => {
         <Introduce />
         <Benefits />
         <Social />
+        <Appits />
       </div>
     </Layout>
   );

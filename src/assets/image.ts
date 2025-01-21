@@ -32,6 +32,8 @@ import face from "./images/icons/face.svg";
 import group from "./images/icons/group.svg";
 import message from "./images/icons/message.svg";
 import share from "./images/icons/share.svg";
+import mask2 from "./images/backgrounds/mask2.svg";
+import check from "./images/icons/check.svg";
 
 export {
   favIcon,
@@ -68,4 +70,6 @@ export {
   group,
   message,
   share,
+  mask2,
+  check,
 };

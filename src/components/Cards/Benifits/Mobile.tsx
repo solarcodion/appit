@@ -1,7 +1,7 @@
 import {
   connection,
   global,
-  phone4,
+  phone2,
   phone5,
   phoneBottomGradient,
   star,
@@ -20,7 +20,7 @@ const Mobile = () => {
         />
         <img
           className="w-[309px] absolute top-0 z-2"
-          src={phone4}
+          src={phone2}
           alt="phone4"
         />
         <img
