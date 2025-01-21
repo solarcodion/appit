@@ -3,10 +3,10 @@ import {
   global,
   phone4,
   phone5,
-  phoneGradient,
+  phoneBottomGradient,
   star,
   support,
-} from "../../assets/image";
+} from "../../../assets/image";
 import Card from "./Card";
 
 const Desktop = () => {
@@ -27,7 +27,7 @@ const Desktop = () => {
       <div className="flex flex-1 flex-col relative items-center h-full rounded-[14px] overflow-y-hidden">
         <img
           className="absolute bottom-0 w-full object-contain"
-          src={phoneGradient}
+          src={phoneBottomGradient}
           alt="phone gradient"
         />
         <img

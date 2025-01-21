@@ -24,7 +24,14 @@ import global from "./images/icons/global.svg";
 import support from "./images/icons/support.svg";
 import phone4 from "./images/phones/4.avif";
 import phone5 from "./images/phones/5.avif";
-import phoneGradient from "./images/backgrounds/phoneGradient.svg";
+import phoneBottomGradient from "./images/backgrounds/phoneBottomGradient.svg";
+import phoneTopGradient from "./images/backgrounds/phoneTopGradient.svg";
+import phone6 from "./images/phones/6.avif";
+import mask1 from "./images/backgrounds/mask1.svg";
+import face from "./images/icons/face.svg";
+import group from "./images/icons/group.svg";
+import message from "./images/icons/message.svg";
+import share from "./images/icons/share.svg";
 
 export {
   favIcon,
@@ -53,5 +60,12 @@ export {
   support,
   phone4,
   phone5,
-  phoneGradient,
+  phoneBottomGradient,
+  phoneTopGradient,
+  phone6,
+  mask1,
+  face,
+  group,
+  message,
+  share,
 };

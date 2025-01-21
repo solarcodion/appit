@@ -1,5 +1,5 @@
 import { star } from "../../assets/image";
-import BenifitCards from "../../components/BenifitCards";
+import BenifitCards from "../../components/Cards/Benifits";
 import { NormalText } from "../../components/common/Text";
 
 const Benefits = () => {

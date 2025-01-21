@@ -6,12 +6,12 @@ const Analysis = () => {
   return (
     <>
       {ANALYSIS.map((item: ANALYZE_DATA, index: number) => (
-        <>
+        <div key={index} className="flex gap-[20px] md:gap-[32px]">
           {index !== 0 && (
             <div className="border-b md:border-b-0 md:border-r border-solid border-[#1d1d20]" />
           )}
-          <Item key={index} item={item} />
-        </>
+          <Item item={item} />
+        </div>
       ))}
     </>
   );

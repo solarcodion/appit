@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import Benefits from "../containers/Home/Benifits";
 import Header from "../containers/Home/Header";
 import Introduce from "../containers/Home/Introduce";
+import Social from "../containers/Home/Social";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
         <Header />
         <Introduce />
         <Benefits />
+        <Social />
       </div>
     </Layout>
   );
