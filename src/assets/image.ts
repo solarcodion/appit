@@ -63,8 +63,16 @@ import minus from "./images/icons/minus.svg";
 import phone7 from "./images/phones/7.png";
 import phone8 from "./images/phones/8.png";
 import phone9 from "./images/phones/9.png";
+import email from "./images/icons/email.svg";
+import linkedin from "./images/social/linkedin.svg";
+import xcom from "./images/social/xcom.svg";
+import instagram from "./images/social/instagram.svg";
 
 export {
+  linkedin,
+  xcom,
+  instagram,
+  email,
   phone7,
   phone8,
   phone9,

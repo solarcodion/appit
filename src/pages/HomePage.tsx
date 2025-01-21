@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Layout from "../components/Layout";
 import Appits from "../containers/Home/Appits";
 import Benefits from "../containers/Home/Benifits";
@@ -29,6 +30,7 @@ const HomePage = () => {
         <FAQs />
         <Download />
       </div>
+      <Footer />
     </Layout>
   );
 };
