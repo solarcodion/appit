@@ -10,4 +10,11 @@ type ANALYZE_DATA = {
   to: number;
 };
 
-export type { MENU_LINK, ANALYZE_DATA };
+type FEATURE_DATA = {
+  img: any;
+  icon: any;
+  title: string;
+  desc: string;
+};
+
+export type { MENU_LINK, ANALYZE_DATA, FEATURE_DATA };

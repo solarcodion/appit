@@ -12,7 +12,7 @@ import { NormalText } from "../../components/common/Text";
 
 const Appits = () => {
   return (
-    <div className="flex flex-col xl:flex-row gap-[50px] w-full h-max xl:h-[548px] items-center">
+    <div className="flex flex-col xl:flex-row gap-[50px] w-full h-max xl:h-[548px] items-center overflow-y-hidden">
       <div className="flex flex-1 flex-col gap-[40px]">
         <div className="flex flex-col gap-[16px]">
           <h1 className="text-[24px] md:text-[58px] font-bold text-center xl:text-start">

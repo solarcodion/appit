@@ -5,8 +5,20 @@ import {
   company4,
   company5,
   company6,
+  face,
+  feature1,
+  feature2,
+  feature3,
+  feature4,
+  feature5,
+  feature6,
+  insight,
+  message,
+  notification,
+  schedule,
+  verify,
 } from "../assets/image";
-import { ANALYZE_DATA } from "../types";
+import { ANALYZE_DATA, FEATURE_DATA } from "../types";
 
 export const COMPANIES: any[] = [
   company1,
@@ -35,5 +47,44 @@ export const ANALYSIS: ANALYZE_DATA[] = [
     desc: "Countries where Appit is growing strong",
     from: 0,
     to: 50,
+  },
+];
+
+export const FEATURES: FEATURE_DATA[] = [
+  {
+    img: feature1,
+    icon: face,
+    title: "Customizable Profiles",
+    desc: "Personalize your profile with themes, layouts, and settings.",
+  },
+  {
+    img: feature2,
+    icon: verify,
+    title: "Verified Users",
+    desc: "Connect confidently with verified, authentic users on the platform.",
+  },
+  {
+    img: feature3,
+    icon: notification,
+    title: "Smart Notifications",
+    desc: "Get real-time alerts for the updates that matter to you.",
+  },
+  {
+    img: feature4,
+    icon: insight,
+    title: "Account Insights",
+    desc: "Track your engagement and performance with detailed analytics.",
+  },
+  {
+    img: feature5,
+    icon: message,
+    title: "Easy Messaging",
+    desc: "Chat seamlessly with friends and groups through an intuitive interface.",
+  },
+  {
+    img: feature6,
+    icon: schedule,
+    title: "Post Scheduling",
+    desc: "Plan and schedule posts to share content at the perfect time.",
   },
 ];

@@ -34,6 +34,18 @@ import message from "./images/icons/message.svg";
 import share from "./images/icons/share.svg";
 import mask2 from "./images/backgrounds/mask2.svg";
 import check from "./images/icons/check.svg";
+import feature from "./images/icons/feature.svg";
+import feature1 from "./images/features/1.avif";
+import feature2 from "./images/features/2.avif";
+import feature3 from "./images/features/3.avif";
+import feature4 from "./images/features/4.avif";
+import feature5 from "./images/features/5.avif";
+import feature6 from "./images/features/6.avif";
+import insight from "./images/icons/insight.svg";
+import notification from "./images/icons/notification.svg";
+import schedule from "./images/icons/schedule.svg";
+import verify from "./images/icons/verify.svg";
+import mask3 from "./images/backgrounds/mask3.svg";
 
 export {
   favIcon,
@@ -72,4 +84,16 @@ export {
   share,
   mask2,
   check,
+  feature,
+  feature1,
+  feature2,
+  feature3,
+  feature4,
+  feature5,
+  feature6,
+  insight,
+  notification,
+  schedule,
+  verify,
+  mask3,
 };
