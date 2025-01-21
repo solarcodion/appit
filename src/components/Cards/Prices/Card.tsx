@@ -9,7 +9,7 @@ type CardProps = {
 
 const Card: React.FC<CardProps> = ({ item, monthly }) => {
   return (
-    <div className="flex flex-col p-[10px] relative w-full">
+    <div className="flex flex-col p-[10px] relative w-[445px] xl:w-full">
       <div className="flex flex-col gap-[24px] p-[20px] w-full z-10">
         <div className="flex flex-col gap-[18px]">
           <p className="text-white text-[22px]">{item.title}</p>

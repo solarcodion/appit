@@ -1,4 +1,4 @@
-import { mask5, price } from "../../assets/image";
+import { face, mask5 } from "../../assets/image";
 import { Slider } from "../../components/Animation";
 import { REVIEWS } from "../../constants/Reviews";
 import { REVIEW_DATA } from "../../types";
@@ -21,8 +21,8 @@ const Testimonials = () => {
       />
       <div className="flex flex-col gap-[14px] w-full items-center">
         <div className="flex w-max bg-[#131315] border border-solid border-[#1d1d20] gap-[3px] px-[12px] py-[10px] rounded-full items-center">
-          <img className="w-[20px] h-[20px]" src={price} alt="star" />
-          <p className="text-[16px] text-white">Our Pricing</p>
+          <img className="w-[20px] h-[20px]" src={face} alt="star" />
+          <p className="text-[16px] text-white">Testimonials</p>
         </div>
         <div className="flex flex-col gap-[20px] w-full items-center  max-w-[1200px]">
           <h1 className="text-[38px] md:text-[58px] font-bold text-center">
@@ -34,7 +34,13 @@ const Testimonials = () => {
           </p>
         </div>
       </div>
-      <div className="w-full overflow-x-hidden">
+      <div
+        className="w-full overflow-x-hidden"
+        style={{
+          maskImage:
+            "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%)",
+        }}
+      >
         <Slider dir="left" pos="-200%" time={40}>
           <div className="w-max flex gap-[24px]">
             {REVIEWS.map((item: REVIEW_DATA, index: number) => (

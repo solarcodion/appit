@@ -57,6 +57,7 @@ import avatar8 from "./images/avatars/8.png";
 import avatar9 from "./images/avatars/9.png";
 import avatar10 from "./images/avatars/10.png";
 import mask5 from "./images/backgrounds/mask5.svg";
+import question from "./images/icons/question.svg";
 
 export {
   favIcon,
@@ -118,4 +119,5 @@ export {
   avatar9,
   avatar10,
   mask5,
+  question,
 };

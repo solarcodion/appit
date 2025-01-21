@@ -7,7 +7,7 @@ import {
   avatar8,
   avatar9,
 } from "../assets/image";
-import { REVIEW_DATA } from "../types";
+import { FAQ_DATA, REVIEW_DATA } from "../types";
 
 const REVIEWS: REVIEW_DATA[] = [
   {
@@ -51,4 +51,35 @@ const REVIEWS: REVIEW_DATA[] = [
   },
 ];
 
-export { REVIEWS };
+const FAQS: FAQ_DATA[] = [
+  {
+    qu: "How do I create an account?",
+    an: "To create an account, download Appit, open the app, and follow the on-screen instructions to sign up using your email or social media.",
+  },
+  {
+    qu: "Can I customize my profile?",
+    an: "Yes, Appit allows you to personalize your profile with a photo, bio, and interests to better connect with others.",
+  },
+  {
+    qu: "Is Appit available on all devices?",
+    an: "Appit is available on both iOS and Android devices, ensuring you can stay connected from your smartphone or tablet.",
+  },
+  {
+    qu: "What privacy controls are available?",
+    an: "Appit offers advanced privacy settings, allowing you to control who can view your profile and interact with you, ensuring your data is secure.",
+  },
+  {
+    qu: "How does the smart matching work?",
+    an: "Our smart matching algorithm analyzes your interests and preferences to suggest connections that are most likely to be meaningful and relevant.",
+  },
+  {
+    qu: "Can I share multimedia content?",
+    an: "Yes, Appit supports sharing photos, videos, and other multimedia content to enhance your interactions and keep your connections engaged.",
+  },
+  {
+    qu: "What should I do if I encounter issues?",
+    an: "If you experience any issues, please contact our support team through the app or website, and we'll assist you as quickly as possible.",
+  },
+];
+
+export { REVIEWS, FAQS };

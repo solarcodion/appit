@@ -39,6 +39,11 @@ type REVIEW_DATA = {
   comment: string;
 };
 
+type FAQ_DATA = {
+  qu: string;
+  an: string;
+};
+
 export type {
   MENU_LINK,
   ANALYZE_DATA,
@@ -46,4 +51,5 @@ export type {
   PRICE_DATA,
   PERSON_DATA,
   REVIEW_DATA,
+  FAQ_DATA,
 };

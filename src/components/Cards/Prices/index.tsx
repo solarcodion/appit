@@ -8,7 +8,7 @@ type PriceProps = {
 
 const Prices: React.FC<PriceProps> = ({ data, monthly }) => {
   return (
-    <div className="flex gap-[20px] w-full">
+    <div className="flex flex-col xl:flex-row gap-[20px] w-full items-center">
       {data.map((item: PRICE_DATA, index: number) => (
         <Card key={index} item={item} monthly={monthly} />
       ))}
