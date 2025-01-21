@@ -15,6 +15,8 @@ import company3 from "./images/companies/company3.svg";
 import company4 from "./images/companies/company4.svg";
 import company5 from "./images/companies/company5.svg";
 import company6 from "./images/companies/company6.svg";
+import round from "./images/backgrounds/round.svg";
+import introduce from "./images/icons/introduce.svg";
 
 export {
   favIcon,
@@ -34,4 +36,6 @@ export {
   company4,
   company5,
   company6,
+  round,
+  introduce,
 };

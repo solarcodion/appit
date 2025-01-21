@@ -6,6 +6,7 @@ import {
   company5,
   company6,
 } from "../assets/image";
+import { ANALYZE_DATA } from "../types";
 
 export const COMPANIES: any[] = [
   company1,
@@ -14,4 +15,25 @@ export const COMPANIES: any[] = [
   company4,
   company5,
   company6,
+];
+
+export const ANALYSIS: ANALYZE_DATA[] = [
+  {
+    title: "k+",
+    disc: "Shared moments and stories every month",
+    from: 450,
+    to: 500,
+  },
+  {
+    title: "k+",
+    disc: "Communities thriving across diverse interests",
+    from: 150,
+    to: 200,
+  },
+  {
+    title: "+",
+    disc: "Countries where Appit is growing strong",
+    from: 0,
+    to: 50,
+  },
 ];
