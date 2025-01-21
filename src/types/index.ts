@@ -28,4 +28,22 @@ type PRICE_DATA = {
   }[];
 };
 
-export type { MENU_LINK, ANALYZE_DATA, FEATURE_DATA, PRICE_DATA };
+type PERSON_DATA = {
+  avatar: any;
+  name: string;
+  job: string;
+};
+
+type REVIEW_DATA = {
+  person: PERSON_DATA;
+  comment: string;
+};
+
+export type {
+  MENU_LINK,
+  ANALYZE_DATA,
+  FEATURE_DATA,
+  PRICE_DATA,
+  PERSON_DATA,
+  REVIEW_DATA,
+};

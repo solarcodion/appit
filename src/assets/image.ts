@@ -49,6 +49,14 @@ import mask3 from "./images/backgrounds/mask3.svg";
 import price from "./images/icons/price.svg";
 import mask4 from "./images/backgrounds/mask4.svg";
 import uncheck from "./images/icons/uncheck.svg";
+import avatar4 from "./images/avatars/4.png";
+import avatar5 from "./images/avatars/5.png";
+import avatar6 from "./images/avatars/6.png";
+import avatar7 from "./images/avatars/7.png";
+import avatar8 from "./images/avatars/8.png";
+import avatar9 from "./images/avatars/9.png";
+import avatar10 from "./images/avatars/10.png";
+import mask5 from "./images/backgrounds/mask5.svg";
 
 export {
   favIcon,
@@ -102,4 +110,12 @@ export {
   price,
   mask4,
   uncheck,
+  avatar4,
+  avatar5,
+  avatar6,
+  avatar7,
+  avatar8,
+  avatar9,
+  avatar10,
+  mask5,
 };

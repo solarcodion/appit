@@ -6,18 +6,24 @@ import Header from "../containers/Home/Header";
 import Introduce from "../containers/Home/Introduce";
 import Price from "../containers/Home/Price";
 import Social from "../containers/Home/Social";
+import Testimonials from "../containers/Home/Testimonials";
 
 const HomePage = () => {
   return (
     <Layout>
-      <div className="flex flex-col gap-[80px] md:gap-[200px] items-center">
-        <Header />
-        <Introduce />
-        <Benefits />
-        <Social />
-        <Appits />
-        <Feature />
-        <Price />
+      <div className="pt-[175px] w-full max-w-[450px] md:max-w-[750px] xl:max-w-[1320px] px-[16px] md:px-[60px]">
+        <div className="flex flex-col gap-[80px] md:gap-[200px] items-center">
+          <Header />
+          <Introduce />
+          <Benefits />
+          <Social />
+          <Appits />
+          <Feature />
+          <Price />
+        </div>
+      </div>
+      <div className="w-full pt-[200px] flex flex-col gap-[200px]">
+        <Testimonials />
       </div>
     </Layout>
   );
