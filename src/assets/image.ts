@@ -60,8 +60,14 @@ import mask5 from "./images/backgrounds/mask5.svg";
 import question from "./images/icons/question.svg";
 import plus from "./images/icons/plus.svg";
 import minus from "./images/icons/minus.svg";
+import phone7 from "./images/phones/7.png";
+import phone8 from "./images/phones/8.png";
+import phone9 from "./images/phones/9.png";
 
 export {
+  phone7,
+  phone8,
+  phone9,
   minus,
   plus,
   favIcon,

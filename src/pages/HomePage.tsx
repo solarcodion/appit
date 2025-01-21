@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import Appits from "../containers/Home/Appits";
 import Benefits from "../containers/Home/Benifits";
+import Download from "../containers/Home/Download";
 import FAQs from "../containers/Home/FAQs";
 import Feature from "../containers/Home/Feature";
 import Header from "../containers/Home/Header";
@@ -23,9 +24,10 @@ const HomePage = () => {
           <Price />
         </div>
       </div>
-      <div className="w-full pt-[200px] flex flex-col gap-[200px] items-center px-[16px] md:px-0">
+      <div className="w-full max-w-[450px] md:max-w-full pt-[200px] flex flex-col gap-[200px] items-center px-[16px] md:px-0">
         <Testimonials />
         <FAQs />
+        <Download />
       </div>
     </Layout>
   );
