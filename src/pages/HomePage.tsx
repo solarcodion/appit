@@ -23,7 +23,7 @@ const HomePage = () => {
           <Price />
         </div>
       </div>
-      <div className="w-full pt-[200px] flex flex-col gap-[200px] items-center">
+      <div className="w-full pt-[200px] flex flex-col gap-[200px] items-center px-[16px] md:px-0">
         <Testimonials />
         <FAQs />
       </div>

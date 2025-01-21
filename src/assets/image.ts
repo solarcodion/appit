@@ -58,8 +58,12 @@ import avatar9 from "./images/avatars/9.png";
 import avatar10 from "./images/avatars/10.png";
 import mask5 from "./images/backgrounds/mask5.svg";
 import question from "./images/icons/question.svg";
+import plus from "./images/icons/plus.svg";
+import minus from "./images/icons/minus.svg";
 
 export {
+  minus,
+  plus,
   favIcon,
   dropdownMenuIcon,
   avatar1,
