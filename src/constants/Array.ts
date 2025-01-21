@@ -20,19 +20,19 @@ export const COMPANIES: any[] = [
 export const ANALYSIS: ANALYZE_DATA[] = [
   {
     title: "k+",
-    disc: "Shared moments and stories every month",
+    desc: "Shared moments and stories every month",
     from: 450,
     to: 500,
   },
   {
     title: "k+",
-    disc: "Communities thriving across diverse interests",
+    desc: "Communities thriving across diverse interests",
     from: 150,
     to: 200,
   },
   {
     title: "+",
-    disc: "Countries where Appit is growing strong",
+    desc: "Countries where Appit is growing strong",
     from: 0,
     to: 50,
   },

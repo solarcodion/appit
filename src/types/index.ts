@@ -5,7 +5,7 @@ type MENU_LINK = {
 
 type ANALYZE_DATA = {
   title: string;
-  disc: string;
+  desc: string;
   from: number;
   to: number;
 };

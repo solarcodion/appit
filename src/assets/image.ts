@@ -17,6 +17,14 @@ import company5 from "./images/companies/company5.svg";
 import company6 from "./images/companies/company6.svg";
 import round from "./images/backgrounds/round.svg";
 import introduce from "./images/icons/introduce.svg";
+import star from "./images/icons/star.svg";
+import connection from "./images/icons/connection.svg";
+import experience from "./images/icons/experience.svg";
+import global from "./images/icons/global.svg";
+import support from "./images/icons/support.svg";
+import phone4 from "./images/phones/4.avif";
+import phone5 from "./images/phones/5.avif";
+import phoneGradient from "./images/backgrounds/phoneGradient.svg";
 
 export {
   favIcon,
@@ -38,4 +46,12 @@ export {
   company6,
   round,
   introduce,
+  star,
+  connection,
+  experience,
+  global,
+  support,
+  phone4,
+  phone5,
+  phoneGradient,
 };

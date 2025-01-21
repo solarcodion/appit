@@ -8,7 +8,7 @@ const Item = ({ item }: { item: ANALYZE_DATA }) => {
         <Increasement from={item.from} to={item.to} />
         <p className="text-[50px] font-bold text-center">{item.title}</p>
       </div>
-      <p className="text-center text-[18px] text-[#797b7b]">{item.disc}</p>
+      <p className="text-center text-[18px] text-[#797b7b]">{item.desc}</p>
     </div>
   );
 };
