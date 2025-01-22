@@ -11,7 +11,8 @@ import { PhoneBgGradient } from "../../components/common/Background";
 import { NormalButton } from "../../components/common/Button";
 import { NormalText } from "../../components/common/Text";
 import UserGroup from "../../components/UserGroup";
-import { COMPANIES } from "../../constants/Array";
+import { COINS } from "../../constants/Array";
+import { COIN_DATA } from "../../types";
 
 const Header = () => {
   return (
@@ -21,12 +22,11 @@ const Header = () => {
           <div className="w-full flex flex-col gap-[16px] items-center">
             <UserGroup />
             <div className="md:px-[40px] xl:px-[150px]">
-              <h1 className="text-[34px] md:text-[60px] xl:text-[64px] text-center font-bold">
-                Connect, Share, and Grow with Appit Social
-              </h1>
+              <p className="text-[34px] md:text-[60px] xl:text-[64px] text-center font-bold">
+                next<span className="text-lime-400">level</span>
+              </p>
               <p className="md:[120px] xl:px-[200px] text-[18px] xl:text-[20px] text-center text-[#94969d]">
-                Join Appit to build authentic connections and share your
-                passions effortlessly.
+                advanced self custody technology
               </p>
             </div>
           </div>
@@ -103,19 +103,27 @@ const Header = () => {
         <p className="text-[18px] text-center">
           Trusted by 1000+ businesses across the world
         </p>
-        <div className="flex gap-[14px] overflow-x-hidden">
-          <Slider dir="left" time={10}>
-            {COMPANIES.map((company: any, index: number) => (
-              <img key={index} src={company} alt={`company-${index}`} />
+        <div className="flex gap-[14px] overflow-x-hidden bg-[#101b40] py-2">
+          <Slider dir="left" time={40}>
+            {COINS.map((coin: COIN_DATA, index: number) => (
+              <div key={index} className="w-max flex gap-3 items-center">
+                <img
+                  className="w-[55px] h-[55px]"
+                  src={coin.icon}
+                  alt={`company-${index}`}
+                />
+                <p className="text-[20px]">{coin.title}</p>
+              </div>
             ))}
-            {COMPANIES.map((company: any, index: number) => (
-              <img key={index} src={company} alt={`company-${index}`} />
-            ))}
-            {COMPANIES.map((company: any, index: number) => (
-              <img key={index} src={company} alt={`company-${index}`} />
-            ))}
-            {COMPANIES.map((company: any, index: number) => (
-              <img key={index} src={company} alt={`company-${index}`} />
+            {COINS.map((coin: COIN_DATA, index: number) => (
+              <div key={index} className="w-max flex gap-3 items-center">
+                <img
+                  className="w-[55px] h-[55px]"
+                  src={coin.icon}
+                  alt={`company-${index}`}
+                />
+                <p className="text-[20px]">{coin.title}</p>
+              </div>
             ))}
           </Slider>
         </div>

@@ -1,10 +1,17 @@
 import {
+  algorand,
+  bitcoin,
+  cardano,
+  chainlink,
   company1,
   company2,
   company3,
   company4,
   company5,
   company6,
+  dodge,
+  eos,
+  etherium,
   face,
   feature1,
   feature2,
@@ -13,12 +20,24 @@ import {
   feature5,
   feature6,
   insight,
+  kusama,
+  litecoin,
+  matic,
   message,
+  near,
   notification,
+  polkadot,
   schedule,
+  shib,
+  solana,
+  tether,
+  tron,
+  uniswap,
+  usdc,
   verify,
+  xrp,
 } from "../assets/image";
-import { ANALYZE_DATA, FEATURE_DATA, PRICE_DATA } from "../types";
+import { ANALYZE_DATA, COIN_DATA, FEATURE_DATA, PRICE_DATA } from "../types";
 
 export const COMPANIES: any[] = [
   company1,
@@ -27,6 +46,28 @@ export const COMPANIES: any[] = [
   company4,
   company5,
   company6,
+];
+
+export const COINS: COIN_DATA[] = [
+  { icon: algorand, title: "Algorand" },
+  { icon: bitcoin, title: "Algorand" },
+  { icon: cardano, title: "Algorand" },
+  { icon: chainlink, title: "Algorand" },
+  { icon: dodge, title: "Algorand" },
+  { icon: eos, title: "Algorand" },
+  { icon: etherium, title: "Algorand" },
+  { icon: kusama, title: "Algorand" },
+  { icon: litecoin, title: "Algorand" },
+  { icon: matic, title: "Algorand" },
+  { icon: near, title: "Algorand" },
+  { icon: polkadot, title: "Algorand" },
+  { icon: shib, title: "Algorand" },
+  { icon: solana, title: "Algorand" },
+  { icon: tether, title: "Algorand" },
+  { icon: tron, title: "Algorand" },
+  { icon: uniswap, title: "Algorand" },
+  { icon: usdc, title: "Algorand" },
+  { icon: xrp, title: "Algorand" },
 ];
 
 export const ANALYSIS: ANALYZE_DATA[] = [

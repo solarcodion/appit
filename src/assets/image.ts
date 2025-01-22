@@ -67,8 +67,48 @@ import email from "./images/icons/email.svg";
 import linkedin from "./images/social/linkedin.svg";
 import xcom from "./images/social/xcom.svg";
 import instagram from "./images/social/instagram.svg";
+import algorand from "./images/icons/algorand.png";
+import avalanche from "./images/icons/avalanche.png";
+import bitcoin from "./images/icons/bitcoin.png";
+import cardano from "./images/icons/cardano.png";
+import chainlink from "./images/icons/chainlink.png";
+import dodge from "./images/icons/dodge.png";
+import eos from "./images/icons/eos.png";
+import etherium from "./images/icons/etherium.png";
+import kusama from "./images/icons/kusama.png";
+import litecoin from "./images/icons/litecoin.png";
+import matic from "./images/icons/matic.png";
+import near from "./images/icons/near.png";
+import polkadot from "./images/icons/polkadot.png";
+import shib from "./images/icons/shib.png";
+import solana from "./images/icons/solana.png";
+import tether from "./images/icons/tether.png";
+import tron from "./images/icons/tron.png";
+import uniswap from "./images/icons/uniswap.png";
+import usdc from "./images/icons/usdc.png";
+import xrp from "./images/icons/xrp.png";
 
 export {
+  algorand,
+  bitcoin,
+  cardano,
+  avalanche,
+  chainlink,
+  dodge,
+  eos,
+  etherium,
+  kusama,
+  litecoin,
+  matic,
+  near,
+  polkadot,
+  shib,
+  solana,
+  tether,
+  tron,
+  uniswap,
+  usdc,
+  xrp,
   linkedin,
   xcom,
   instagram,

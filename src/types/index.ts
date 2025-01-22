@@ -44,7 +44,13 @@ type FAQ_DATA = {
   an: string;
 };
 
+type COIN_DATA = {
+  icon: any;
+  title: string;
+};
+
 export type {
+  COIN_DATA,
   MENU_LINK,
   ANALYZE_DATA,
   FEATURE_DATA,
