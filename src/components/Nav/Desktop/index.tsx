@@ -10,7 +10,7 @@ const Desktop = () => {
         <div className="flex">
           <MenuList />
         </div>
-        <NormalButton className="absolute right-0">Join Waitlist</NormalButton>
+        <NormalButton className="absolute right-0">Sign Up Now</NormalButton>
       </div>
     </div>
   );

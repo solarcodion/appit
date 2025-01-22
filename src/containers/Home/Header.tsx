@@ -23,16 +23,14 @@ const Header = () => {
             <UserGroup />
             <div className="md:px-[40px] xl:px-[150px]">
               <p className="text-[34px] md:text-[60px] xl:text-[64px] text-center font-bold">
-                next<span className="text-lime-400">level</span>
-              </p>
-              <p className="md:[120px] xl:px-[200px] text-[18px] xl:text-[20px] text-center text-[#94969d]">
+                next<span className="text-lime-400">level </span>
                 advanced self custody technology
               </p>
             </div>
           </div>
           <div className="w-full flex flex-col gap-[30px] items-center">
             <NormalButton className="w-max font-semibold">
-              Get this Template
+              Get Early Access
             </NormalButton>
             <div className="flex gap-[10px]">
               <div className="flex items-center gap-1">
@@ -60,25 +58,25 @@ const Header = () => {
           </div>
         </div>
         <div className="relative w-full h-[611px]">
-          <div className="hidden md:block md:w-[230px] xl:w-[300px] md:h-[365px] xl:h-[365px] absolute md:top-[-100px] xl:top-[-210px] md:left-[-45px] xl:left-0">
+          <div className="hidden md:block md:w-[230px] xl:w-[300px] md:h-[365px] xl:h-[365px] absolute md:top-[-100px] xl:top-[-210px] md:left-[-45px] xl:left-0 overflow-y-hidden">
             <img
-              className="w-full h-full object-contain"
+              className="w-full h-[448px] object-contain"
               src={phone1}
               alt="phone1"
             />
             <PhoneBgGradient />
           </div>
-          <div className="md:w-[200px] xl:w-[260px] md:h-[400px] xl:h-[400px] absolute top-[50px] left-1/2 -translate-x-1/2">
+          <div className="md:w-[200px] xl:w-[260px] md:h-[400px] xl:h-[400px] absolute top-[50px] left-1/2 -translate-x-1/2 overflow-y-hidden">
             <img
-              className="w-full h-full object-contain"
+              className="w-full h-[514px] object-contain"
               src={phone2}
               alt="phone2"
             />
             <PhoneBgGradient />
           </div>
-          <div className="hidden md:block md:w-[230px] xl:w-[300px] md:h-[365px] xl:h-[365px] absolute md:top-[-100px] xl:top-[-210px] md:right-[-45px] xl:right-0">
+          <div className="hidden md:block md:w-[230px] xl:w-[300px] md:h-[365px] xl:h-[365px] absolute md:top-[-100px] xl:top-[-210px] md:right-[-45px] xl:right-0 overflow-y-hidden">
             <img
-              className="w-full h-full object-contain"
+              className="w-full h-[448px] object-contain"
               src={phone3}
               alt="phone3"
             />
@@ -103,7 +101,7 @@ const Header = () => {
         <p className="text-[18px] text-center">
           Trusted by 1000+ businesses across the world
         </p>
-        <div className="flex gap-[14px] overflow-x-hidden bg-[#101b40] py-2">
+        <div className="flex gap-[14px] overflow-x-hidden py-2">
           <Slider dir="left" time={40}>
             {COINS.map((coin: COIN_DATA, index: number) => (
               <div key={index} className="w-max flex gap-3 items-center">

@@ -9,7 +9,7 @@ const MenuList = () => {
       {MENU_LINKS.map((item: MENU_LINK, index: number) => (
         <MenuItem key={index} item={item} />
       ))}
-      <NormalButton className="w-[180px]">Join Waitlist</NormalButton>
+      <NormalButton className="w-[180px]">Sign Up Now</NormalButton>
     </>
   );
 };

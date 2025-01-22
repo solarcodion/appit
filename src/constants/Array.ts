@@ -46,7 +46,7 @@ export const COMPANIES: any[] = [
 
 export const COINS: COIN_DATA[] = [
   { icon: algorand, title: "Algorand" },
-  { icon: bitcoin, title: "Algorand" },
+  { icon: bitcoin, title: "Bitcoin" },
   { icon: cardano, title: "Algorand" },
   { icon: chainlink, title: "Algorand" },
   { icon: dodge, title: "Algorand" },
