@@ -41,66 +41,98 @@ const Testimonials = () => {
             "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%)",
         }}
       >
-        <Slider dir="left" pos="-200%" time={40}>
-          <div className="w-max flex gap-[24px]">
-            {REVIEWS.map((item: REVIEW_DATA, index: number) => (
-              <div
-                key={index}
-                className="w-[387px] h-[295px] relative flex flex-col gap-[24px] p-[30px]"
-              >
-                <img
-                  className="absolute top-0 left-0 right-0 z-[-1]"
-                  src={mask5}
-                  alt="mask5"
-                />
-                <p className="text-[18px] text-[#aeb0b6]">{item.comment}</p>
-                <div className="border-t border-solid border-[#1d1d20] w-full pt-[20px] flex gap-[12px] items-center">
+        <div className="hidden md:block w-full">
+          <Slider dir="left" pos="-200%" time={40}>
+            <div className="w-max flex gap-[24px]">
+              {REVIEWS.map((item: REVIEW_DATA, index: number) => (
+                <div
+                  key={index}
+                  className="w-[387px] h-[295px] relative flex flex-col gap-[24px] p-[30px]"
+                >
                   <img
-                    className="w-[50px] h-[50px]"
-                    src={item.person.avatar}
-                    alt="avatar"
+                    className="absolute top-0 left-0 right-0 z-[-1]"
+                    src={mask5}
+                    alt="mask5"
                   />
-                  <div className="flex flex-col gap-[2px]">
-                    <p className="text-[20px] font-semibold">
-                      {item.person.name}
-                    </p>
-                    <p className="text-[16px] text-[#62646b]">
-                      {item.person.job}
-                    </p>
+                  <p className="text-[18px] text-[#aeb0b6]">{item.comment}</p>
+                  <div className="border-t border-solid border-[#1d1d20] w-full pt-[20px] flex gap-[12px] items-center">
+                    <img
+                      className="w-[50px] h-[50px]"
+                      src={item.person.avatar}
+                      alt="avatar"
+                    />
+                    <div className="flex flex-col gap-[2px]">
+                      <p className="text-[20px] font-semibold">
+                        {item.person.name}
+                      </p>
+                      <p className="text-[16px] text-[#62646b]">
+                        {item.person.job}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-            {REVIEWS.map((item: REVIEW_DATA, index: number) => (
-              <div
-                key={index}
-                className="w-[387px] h-[295px] relative flex flex-col gap-[24px] p-[30px]"
-              >
-                <img
-                  className="absolute top-0 left-0 right-0 z-[-1]"
-                  src={mask5}
-                  alt="mask5"
-                />
-                <p className="text-[18px] text-[#aeb0b6]">{item.comment}</p>
-                <div className="border-t border-solid border-[#1d1d20] w-full pt-[20px] flex gap-[12px] items-center">
+              ))}
+              {REVIEWS.map((item: REVIEW_DATA, index: number) => (
+                <div
+                  key={index}
+                  className="w-[387px] h-[295px] relative flex flex-col gap-[24px] p-[30px]"
+                >
                   <img
-                    className="w-[50px] h-[50px]"
-                    src={item.person.avatar}
-                    alt="avatar"
+                    className="absolute top-0 left-0 right-0 z-[-1]"
+                    src={mask5}
+                    alt="mask5"
                   />
-                  <div className="flex flex-col gap-[2px]">
-                    <p className="text-[20px] font-semibold">
-                      {item.person.name}
-                    </p>
-                    <p className="text-[16px] text-[#62646b]">
-                      {item.person.job}
-                    </p>
+                  <p className="text-[18px] text-[#aeb0b6]">{item.comment}</p>
+                  <div className="border-t border-solid border-[#1d1d20] w-full pt-[20px] flex gap-[12px] items-center">
+                    <img
+                      className="w-[50px] h-[50px]"
+                      src={item.person.avatar}
+                      alt="avatar"
+                    />
+                    <div className="flex flex-col gap-[2px]">
+                      <p className="text-[20px] font-semibold">
+                        {item.person.name}
+                      </p>
+                      <p className="text-[16px] text-[#62646b]">
+                        {item.person.job}
+                      </p>
+                    </div>
                   </div>
                 </div>
+              ))}
+            </div>
+          </Slider>
+        </div>
+        <div className="flex flex-col md:hidden gap-[5px]">
+          {REVIEWS.map((item: REVIEW_DATA, index: number) => (
+            <div
+              key={index}
+              className="w-[387px] h-[295px] relative flex flex-col gap-[24px] p-[30px]"
+            >
+              <img
+                className="absolute top-0 left-0 right-0 z-[-1]"
+                src={mask5}
+                alt="mask5"
+              />
+              <p className="text-[18px] text-[#aeb0b6]">{item.comment}</p>
+              <div className="border-t border-solid border-[#1d1d20] w-full pt-[20px] flex gap-[12px] items-center">
+                <img
+                  className="w-[50px] h-[50px]"
+                  src={item.person.avatar}
+                  alt="avatar"
+                />
+                <div className="flex flex-col gap-[2px]">
+                  <p className="text-[20px] font-semibold">
+                    {item.person.name}
+                  </p>
+                  <p className="text-[16px] text-[#62646b]">
+                    {item.person.job}
+                  </p>
+                </div>
               </div>
-            ))}
-          </div>
-        </Slider>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

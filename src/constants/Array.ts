@@ -136,6 +136,7 @@ export const YEARLY_PRICE: PRICE_DATA[] = [
   {
     title: "Premium Plan",
     sub: "Enhanced features for new experience.",
+    badge: "Save 20% on Yearly",
     value: 99,
     information: [
       { desc: "Create and customize profile", status: true },
