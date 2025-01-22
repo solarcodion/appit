@@ -99,8 +99,16 @@ import feature7 from "./images/features/7.svg";
 import feature8 from "./images/features/8.svg";
 import feature9 from "./images/features/9.svg";
 import feature10 from "./images/features/10.svg";
+import phone11 from "./images/phones/11.png";
+import security from "./images/icons/security.svg";
+import lock from "./images/icons/lock.svg";
+import key from "./images/icons/key.svg";
 
 export {
+  security,
+  lock,
+  key,
+  phone11,
   feature7,
   feature8,
   feature9,

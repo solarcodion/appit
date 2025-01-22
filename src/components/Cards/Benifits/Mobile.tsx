@@ -1,18 +1,16 @@
 import {
-  connection,
-  global,
-  phone2,
-  phone5,
+  key,
+  lock,
+  phone11,
   phoneBottomGradient,
-  star,
-  support,
+  security,
 } from "../../../assets/image";
 import Card from "./Card";
 
 const Mobile = () => {
   return (
     <div className="w-full flex flex-col xl:hidden gap-[20px]">
-      <div className="w-full h-[498px] relative overflow-y-hidden flex justify-center">
+      <div className="w-full h-[267px] relative overflow-y-hidden flex justify-center">
         <img
           className="absolute bottom-0 w-full object-contain"
           src={phoneBottomGradient}
@@ -20,61 +18,60 @@ const Mobile = () => {
         />
         <img
           className="w-[309px] absolute top-0 z-2"
-          src={phone2}
-          alt="phone4"
-        />
-        <img
-          className="w-[281px] absolute top-[10px] rounded-[28px] z-2"
-          src={phone5}
+          src={phone11}
           alt="phone4"
         />
       </div>
-      <div className="hidden md:flex gap-[20px]">
+      <div className="hidden md:flex md:flex-col gap-[20px]">
         <div className="flex flex-col flex-1 gap-[20px]">
           <Card
-            icon={connection}
+            icon={security}
             title="Authentic Connections"
+            sub="Protect your assets with multisig protection"
             desc="Build genuine relationships with like-minded individuals."
-          />
-          <Card
-            icon={global}
-            title="Global Reach"
-            desc="Connect with people across 50+ countries effortlessly."
+            isShow={true}
           />
         </div>
         <div className="flex flex-col flex-1 gap-[20px]">
           <Card
-            icon={star}
-            title="Personalized Experience"
-            desc="Tailored content and recommendations just for you."
+            icon={lock}
+            title="Collaborative Management"
+            sub="Manage crypto with others, securely"
+            desc="Multisig enables shared management of crypto assets, with built-in security."
+            isShow={true}
           />
+        </div>
+        <div className="flex flex-col flex-1 gap-[20px]">
           <Card
-            icon={support}
-            title="Community Support"
-            desc="Join thriving communities aroundyour interests."
+            icon={key}
+            title="Flexibility"
+            sub="Customize your multisig settings"
+            desc="Choose the number of signatures required and assign roles for tailored security"
+            isShow={true}
           />
         </div>
       </div>
       <div className="flex flex-col gap-[20px] md:hidden">
         <Card
-          icon={connection}
+          icon={security}
           title="Authentic Connections"
+          sub="Protect your assets with multisig protection"
           desc="Build genuine relationships with like-minded individuals."
+          isShow={true}
         />
         <Card
-          icon={global}
-          title="Global Reach"
-          desc="Connect with people across 50+ countries effortlessly."
+          icon={lock}
+          title="Collaborative Management"
+          sub="Manage crypto with others, securely"
+          desc="Multisig enables shared management of crypto assets, with built-in security."
+          isShow={true}
         />
         <Card
-          icon={star}
-          title="Personalized Experience"
-          desc="Tailored content and recommendations just for you."
-        />
-        <Card
-          icon={support}
-          title="Community Support"
-          desc="Join thriving communities aroundyour interests."
+          icon={key}
+          title="Flexibility"
+          sub="Customize your multisig settings"
+          desc="Choose the number of signatures required and assign roles for tailored security"
+          isShow={true}
         />
       </div>
     </div>

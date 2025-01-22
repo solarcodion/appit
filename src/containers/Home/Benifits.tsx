@@ -12,7 +12,7 @@ const Benefits = () => {
         </div>
         <div className="flex flex-col gap-[20px]">
           <h2 className="text-[38px] md:text-[58px] text-center font-bold">
-            Discover Appit’s Benefits
+            Discover Benefits
           </h2>
           <NormalText className="md:px-[120px] xl:px-[320px] text-center !text-[18px]">
             Unlock a world of meaningful connections, tailored experiences, and

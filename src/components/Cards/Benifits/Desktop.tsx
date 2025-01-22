@@ -1,56 +1,64 @@
 import {
-  connection,
-  global,
-  phone2,
-  phone5,
+  key,
+  lock,
+  phone11,
   phoneBottomGradient,
-  star,
-  support,
+  security,
 } from "../../../assets/image";
 import Card from "./Card";
 
 const Desktop = () => {
   return (
-    <div className="hidden xl:flex h-[510px] gap-[20px]">
+    <div className="hidden xl:flex h-[630px] gap-[20px]">
       <div className="flex flex-1 flex-col gap-[20px] h-full">
         <Card
-          icon={connection}
-          title="Authentic Connections"
-          desc="Build genuine relationships with like-minded individuals."
+          icon={security}
+          title="Enhanced Security"
+          sub="Protect your assets with multisig protection"
+          desc="Mitigate the risk of unauthorized transactions and ensure secure storage."
         />
         <Card
-          icon={global}
-          title="Global Reach"
-          desc="Connect with people across 50+ countries effortlessly."
-        />
-      </div>
-      <div className="flex flex-1 flex-col relative items-center h-full rounded-[14px] overflow-y-hidden">
-        <img
-          className="absolute bottom-0 w-full object-contain"
-          src={phoneBottomGradient}
-          alt="phone gradient"
-        />
-        <img
-          className="w-[309px] absolute top-0 z-2"
-          src={phone2}
-          alt="phone4"
-        />
-        <img
-          className="w-[281px] absolute top-[10px] rounded-[28px] z-2"
-          src={phone5}
-          alt="phone4"
+          icon={security}
+          title="Enhanced Security"
+          sub="Protect your assets with multisig protection"
+          desc="Mitigate the risk of unauthorized transactions and ensure secure storage."
+          isShow={true}
         />
       </div>
       <div className="flex flex-1 flex-col gap-[20px] h-full">
+        <div className="flex flex-1 flex-col relative items-center rounded-[14px] overflow-y-hidden">
+          <img
+            className="absolute bottom-0 w-full object-contain"
+            src={phoneBottomGradient}
+            alt="phone gradient"
+          />
+          <img
+            className="w-[309px] absolute top-0 z-2"
+            src={phone11}
+            alt="phone4"
+          />
+        </div>
         <Card
-          icon={star}
-          title="Personalized Experience"
-          desc="Tailored content and recommendations just for you."
+          icon={lock}
+          title="Collaborative Management"
+          sub="Manage crypto with others, securely"
+          desc="Multisig enables shared management of crypto assets, with built-in security."
+          isShow={true}
+        />
+      </div>
+      <div className="flex flex-1 flex-col gap-[20px] h-full">
+        <Card
+          icon={key}
+          title="Flexibility"
+          sub="Customize your multisig settings"
+          desc="Choose the number of signatures required and assign roles for tailored security"
         />
         <Card
-          icon={support}
-          title="Community Support"
-          desc="Join thriving communities aroundyour interests."
+          icon={key}
+          title="Flexibility"
+          sub="Customize your multisig settings"
+          desc="Choose the number of signatures required and assign roles for tailored security"
+          isShow={true}
         />
       </div>
     </div>
