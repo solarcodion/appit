@@ -53,32 +53,36 @@ const REVIEWS: REVIEW_DATA[] = [
 
 const FAQS: FAQ_DATA[] = [
   {
-    qu: "How do I create an account?",
-    an: "To create an account, download Appit, open the app, and follow the on-screen instructions to sign up using your email or social media.",
+    qu: "What is a multisig crypto wallet?",
+    an: "A multisig (multi-signature) crypto wallet is a digital wallet that requires multiple private keys to authorize a transaction. This enhances security by ensuring that more than one person or device must approve a transaction before it is executed. For instance, in a 2-of-3 multisig wallet, two out of three designated private keys must approve a transaction.",
   },
   {
-    qu: "Can I customize my profile?",
-    an: "Yes, Appit allows you to personalize your profile with a photo, bio, and interests to better connect with others.",
+    qu: "How does a multisig wallet enhance security?",
+    an: "A multisig wallet enhances security by requiring multiple approvals before a transaction can proceed. This reduces the risk of theft, as one compromised key is not enough to authorize a transaction.",
   },
   {
-    qu: "Is Appit available on all devices?",
-    an: "Appit is available on both iOS and Android devices, ensuring you can stay connected from your smartphone or tablet.",
+    qu: "What does it mean that the wallet stores secret keys on the device's keychain?",
+    an: "Storing secret keys on the device's keychain provides an additional layer of security by keeping keys secure and accessible only to the wallet application.",
   },
   {
-    qu: "What privacy controls are available?",
-    an: "Appit offers advanced privacy settings, allowing you to control who can view your profile and interact with you, ensuring your data is secure.",
+    qu: "What are the different configurations of a multisig wallet?",
+    an: "Multisig wallets can be configured in various ways, such as 2-of-3, 3-of-5, etc., meaning different numbers of keys are needed for transaction approval.",
   },
   {
-    qu: "How does the smart matching work?",
-    an: "Our smart matching algorithm analyzes your interests and preferences to suggest connections that are most likely to be meaningful and relevant.",
+    qu: "How does the keychain storage enhance security in a multisig wallet?",
+    an: "Keychain storage enhances security by securing keys on the device itself, making them harder to access unauthorizedly.",
   },
   {
-    qu: "Can I share multimedia content?",
-    an: "Yes, Appit supports sharing photos, videos, and other multimedia content to enhance your interactions and keep your connections engaged.",
+    qu: "What happens if one of the keys in a multisig wallet is lost, especially with keychain storage?",
+    an: "If a key is lost, the wallet's multisig configuration may allow transactions with the remaining keys, depending on its setup.",
   },
   {
-    qu: "What should I do if I encounter issues?",
-    an: "If you experience any issues, please contact our support team through the app or website, and we'll assist you as quickly as possible.",
+    qu: "Are multisig wallets compatible with all cryptocurrencies?",
+    an: "Not all cryptocurrencies support multisig wallets; compatibility depends on the blockchain technology and wallet provider.",
+  },
+  {
+    qu: "How do transaction approvals work in a multisig wallet with keychain-stored keys?",
+    an: "In a multisig wallet with keychain-stored keys, each transaction requires approval from a set number of keys, which are securely stored in the device's keychain.",
   },
 ];
 

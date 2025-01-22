@@ -15,6 +15,9 @@ const FAQs = () => {
           <h1 className="text-[38px] md:text-[58px] font-bold text-center">
             Frequently Asked Questions
           </h1>
+          <p className="text-[16px] text-[#94969d]">
+            Everything you need to know about TrustVault
+          </p>
         </div>
       </div>
       <div className="flex flex-col gap-[24px]">

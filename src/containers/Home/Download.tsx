@@ -13,11 +13,12 @@ const Download = () => {
       <div className="flex flex-col w-full gap-[40px]">
         <div className="flex-flex-col gap-[20px] px-0 md:px-[133px]">
           <h1 className="text-[38px] md:text-[58px] font-bold text-center">
-            Download Appit Social and Connect Today
+            Download Our Wallet
           </h1>
           <p className="text-[18px] text-[#94969d] text-center">
-            Download Appit now to start connecting with like-minded people and
-            enjoy a seamless social experience!
+            Get started with SafeSend today. Download our secure wallet app and
+            take control of your digital assets with confidence. Available for
+            both iOS and Android devices.
           </p>
         </div>
         <div className="flex flex-col md:flex-row gap-[20px] justify-center">

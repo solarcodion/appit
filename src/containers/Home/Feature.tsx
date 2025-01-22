@@ -22,13 +22,19 @@ const Feature = () => {
           <img className="w-[20px] h-[20px]" src={feature} alt="star" />
           <p className="text-[16px] text-white">Features</p>
         </div>
-        <div className="flex flex-col gap-[20px] w-full">
-          <h1 className="text-[38px] md:text-[58px] font-bold text-center">
-            Discover Appit Features
-          </h1>
+        <div className="flex flex-col gap-[8px] w-full">
+          <div className="flex flex-col">
+            <h1 className="text-[38px] md:text-[58px] font-bold text-center">
+              Supported Blockchains and Currencies
+            </h1>
+            <p className="xl:px-[120px] text-[20px] text-center text-[#797b85]">
+              Comprehensive Support for All Your Digital Assets
+            </p>
+          </div>
           <p className="xl:px-[320px] text-[18px] text-center text-[#797b85]">
-            Explore Appit's powerful features designed to help you connect,
-            share, and engage with your community effortlessly.
+            Our platform supports a wide range of blockchains, cryptocurrencies,
+            and NFTs across various protocols. Easily manage your digital assets
+            and collectibles, all in one secure and versatile app.
           </p>
         </div>
       </div>

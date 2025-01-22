@@ -99,10 +99,12 @@ export const FAQAnimation: React.FC<FAQProps> = ({ item }) => {
 
   return (
     <div className="px-[30px] py-[16px] border border-solid border-[#18181a] rounded-[14px] bg-[#09090a] flex flex-col overflow-y-hidden">
-      <div className="flex justify-between">
-        <p className="text-[20px] font-semibold content-center">{item.qu}</p>
+      <div className="flex justify-between items-center">
+        <p className="text-[20px] font-semibold content-center pr-[10px]">
+          {item.qu}
+        </p>
         <div
-          className="w-[40px] h-[40px] border border-solid border-[#1d1d20] rounded-[10px] flex items-center justify-center"
+          className="min-w-[40px] min-h-[40px] w-[40px] h-[40px] border border-solid border-[#1d1d20] rounded-[10px] flex items-center justify-center"
           onClick={toggle}
         >
           <img className="" src={isOpen ? minus : plus} alt="plus" />

@@ -87,8 +87,32 @@ import tron from "./images/icons/tron.png";
 import uniswap from "./images/icons/uniswap.png";
 import usdc from "./images/icons/usdc.png";
 import xrp from "./images/icons/xrp.png";
+import whatsapp from "./images/social/whatsapp.svg";
+import telegram from "./images/social/telegram.svg";
+import android from "./images/supports/android.png";
+import chrome from "./images/supports/chrome.png";
+import firefox from "./images/supports/firefox.png";
+import ios from "./images/supports/ios.png";
+import lion from "./images/supports/lion.png";
+import mac from "./images/supports/mac.png";
+import feature7 from "./images/features/7.svg";
+import feature8 from "./images/features/8.svg";
+import feature9 from "./images/features/9.svg";
+import feature10 from "./images/features/10.svg";
 
 export {
+  feature7,
+  feature8,
+  feature9,
+  feature10,
+  android,
+  chrome,
+  firefox,
+  ios,
+  lion,
+  mac,
+  whatsapp,
+  telegram,
   algorand,
   bitcoin,
   cardano,
